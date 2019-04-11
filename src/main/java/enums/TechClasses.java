@@ -11,4 +11,8 @@ public enum TechClasses {
         this.pl = pl;
         this.level = level;
     }
+
+    public String toStringLine(){
+        return String.format("pl is %s, level is %s", pl, level);
+    }
 }
